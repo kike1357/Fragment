@@ -11,9 +11,16 @@
     tools:context="com.example.pablorodriguez.fragments.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
+        android:text="Enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/boton" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto" />
 </RelativeLayout>
